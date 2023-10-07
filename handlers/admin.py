@@ -12,7 +12,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 ID = None
-
+# сюда добавим модуль тестирования
 
 class FSMAdmin(StatesGroup):
     photo = State()
